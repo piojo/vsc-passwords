@@ -36,10 +36,9 @@ PACKAGE = {
     'install_requires': ['vsc-base >= 0.99', 'keepassdb >= 0.1.0', 'keyring >= 1.1'],
     'author': [jt],
     'maintainer': [jt],
-    'packages': ['vsc.passwords'],
-    'namespace_packages': ['vsc'],
-    'py_modules': ['vsc.__init__'],
     'scripts': ['bin/add_keys_to_keyring.py'],
+
+    'package_dir': {'': '.'},
     'provides': ['python-vsc-packages-passwords = 0.1'],
 }
 
