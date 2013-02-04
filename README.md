@@ -3,7 +3,7 @@ vsc-passwords
 
 vsc-passwords contains python tools for password management.
 
-[![Build Status](https://jenkins1.ugent.be/job/VSC_passwords/badge/icon)](https://jenkins1.ugent.be/job/VSC_passwords/)
+[![Build Status](https://jenkins1.ugent.be/job/VSC-passwords/badge/icon)](https://jenkins1.ugent.be/job/VSC-passwords/)
 
 # Usage
 This package contains a script to pull data from a keepass file into your keyring (linux, osx, windows)
